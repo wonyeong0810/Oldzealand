@@ -12,3 +12,14 @@ document.getElementById('goRight').addEventListener('click', function() {
     imageContainer.style.backgroundImage = `url(${img[i]})`;
 
 });
+
+$(document).ready(function() {
+	$('#fullpage').fullpage({
+		//options here
+		autoScrolling:true,
+		scrollHorizontally: true
+	});
+ 
+	//methods
+	$.fn.fullpage.setAllowScrolling(false);
+});
