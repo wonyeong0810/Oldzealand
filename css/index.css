@@ -69,18 +69,18 @@
 }
 
 #section1{
-    display: flex;
     align-items: center;      /* 세로 가운데 정렬 */
     height: 100%;
 }
 
-.slide{
-    align-items: center;
-}
 
 .title {
-    align-items: center;
     text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
 }
 
 .ex{
