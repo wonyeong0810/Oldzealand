@@ -21,5 +21,5 @@ $(document).ready(function() {
 	});
  
 	//methods
-	$.fn.fullpage.setAllowScrolling(false);
+	$.fn.fullpage.setAllowScrolling(true);
 });

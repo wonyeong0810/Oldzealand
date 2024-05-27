@@ -14,7 +14,7 @@
 
 /* 글자 로고 색깔 */
 .header h1 a{
-    color: white;
+    color: black;
 }
 
 /* 글자로고 */
@@ -38,12 +38,13 @@
 
 /* 메뉴 요소 색깔 */
 .header .nav ul li a{
-    color: white;
+    color: black;
 }
 
 .image-container {
     width: 100%;
     height: 80vh;
+    margin-top: -10vh;
     background-image: url('../img/DMZ2.jpg');
     background-size: cover;
     background-position: center;
@@ -61,4 +62,9 @@
     float: right;
     width: 40vh;
     height: 70vh;
+}
+
+.header{
+    position: relative;
+    z-index: 99999;
 }
