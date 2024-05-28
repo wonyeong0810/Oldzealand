@@ -25,4 +25,4 @@ $(document).ready(function() {
  
 	//methods
 	$.fn.fullpage.setAllowScrolling(true);
-});
+});	
