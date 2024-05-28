@@ -27,13 +27,13 @@
 
 /* 글자로고 */
 .header h1{
-    margin-left: 10%;
+    margin-left: 5%;
     
 }
 /* 메뉴요소 배치 */
 .header .nav{
     float: right;
-    margin-top: -2.5vh;
+    margin-top: -3vh;
     margin-right: 10%;
     
 }
