@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
 /* 전체 선택 */
 *{
     margin: 0px;
@@ -5,6 +12,7 @@
     box-sizing: border-box;
     color: black;
     text-decoration-line: none;
+    font-family: "Pretendard-Regular";
 }
 /* 헤더배치 */
 .container .header {
@@ -73,16 +81,28 @@
     height: 100%;
 }
 
-
-.title {
-    text-align: center;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: xx-large;
+.title{
+    margin-top: 2%;
+    margin-left: 5%;
+    font-size: 300%;
 }
 
 .ex{
-    text-align: center;
+    
+    margin-top: 1%;
+    margin-left: 5%;
+    font-size: 120%;
+}
+
+.bgimg{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 80vh;
+    height: 95.85%;
+    background-image: url('../img/bgimg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
