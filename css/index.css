@@ -15,8 +15,8 @@
     font-family: "Pretendard-Regular";
 }
 /* 헤더배치 */
-.container .header {
-    display: inline-block;
+.header {
+    background-color: rgb(153, 255, 0);
 }
 
 
@@ -102,6 +102,19 @@
     width: 80vh;
     height: 95.85%;
     background-image: url('../img/bgimg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bgimg2{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 80vh;
+    height: 95.85%;
+    background-image: url('../img/bgimg2.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
