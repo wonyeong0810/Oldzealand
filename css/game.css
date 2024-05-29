@@ -48,3 +48,8 @@
 .header .nav ul li a{
     color: black;
 }
+
+.header{
+    position: relative;
+    z-index: 99999;
+}
