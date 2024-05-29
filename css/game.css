@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 전체 선택 */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: black;
+    text-decoration-line: none;
+    font-family: "Pretendard-Regular";
+}
+/* 헤더배치 */
+.header {
+    background-color: rgb(153, 255, 0);
+}
+
+
+/* 글자 로고 색깔 */
+.header h1 a{
+    color: black;
+}
+
+/* 글자로고 */
+.header h1{
+    margin-left: 5%;
+    
+}
+/* 메뉴요소 배치 */
+.header .nav{
+    float: right;
+    margin-top: -3vh;
+    margin-right: 10%;
+    
+}
+/* 메뉴요소 스타일링 */
+.header .nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+/* 메뉴 요소 색깔 */
+.header .nav ul li a{
+    color: black;
+}
