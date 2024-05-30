@@ -75,6 +75,56 @@
     transition: background-image 0.5s ease-in-out;
 
 }
+#section3{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/enviro3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 0.5s ease-in-out;
+
+}
+#section4{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/enviro4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 0.5s ease-in-out;
+
+}
+#section5{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/enviro5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 0.5s ease-in-out;
+
+}
+#section6{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/enviro6.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 0.5s ease-in-out;
+
+}
+#section7{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/enviro7.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 0.5s ease-in-out;
+
+}
 
 .seol{
     position: absolute;
