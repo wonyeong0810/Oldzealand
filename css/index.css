@@ -119,3 +119,23 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+#text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+
+#text h1{
+    width: 100%;
+    font-size: 80px;
+    color: white;
+}
+
+#text h2{
+    font-size: 30px;
+    color: white;
+}
